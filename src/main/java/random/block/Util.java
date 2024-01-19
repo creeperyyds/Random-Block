@@ -33,6 +33,6 @@ public class Util {
             }
         });
         Arrays.stream(Effects.class.getFields()).forEach(effectField -> add(EFFECTS, effectField));
-        EFFECTS.remove(Effects.DAMAGE_RESISTANCE);
+        EFFECTS.remove(Effects.HARM);
     }
 }
